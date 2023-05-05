@@ -1,0 +1,15 @@
+.hero-details-container{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.hero-details-container span, label{
+    font-weight: bold;
+}
+
+.hero-details{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
