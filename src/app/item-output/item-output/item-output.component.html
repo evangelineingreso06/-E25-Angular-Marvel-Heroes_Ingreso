@@ -1,0 +1,12 @@
+<style>
+    div {
+        text-align: center;
+    }
+</style>
+
+
+<div class="output-list">
+<label for="item-input">Add an item:</label>
+<input type="text" placeholder="Input Here" id="item-input" #newItem>
+<button type="button" (click)="addNewItem(newItem.value)">Add to parent's list</button>
+</div>

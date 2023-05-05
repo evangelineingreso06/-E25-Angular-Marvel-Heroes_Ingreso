@@ -197,12 +197,18 @@
   <!-- Terminal -->
   <div class="terminal">
     <pre>Iron Man: Hello</pre><br><br>
-    <pre>Eva: Hi</pre>
+    <pre>Eva Ingreso: Hi Iron Man!</pre>
    
 
  </div>
 </div>
 <app-heroes-lists></app-heroes-lists>
+<app-item-output (newItemEvent)="addItem($event)"></app-item-output>
+<div class="list">
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+</div>
 
 
 
